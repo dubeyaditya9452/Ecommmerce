@@ -8,6 +8,7 @@ function shop(){
     aboutus.style.display ="none";
     contactus.style.display ="none";
     document.querySelector('.crd').style.display ="none";
+    Order.style.display ='none';
 
 }
 
@@ -18,6 +19,7 @@ function blog(){
     aboutus.style.display ="none";
     contactus.style.display ="none";
     document.querySelector('.crd').style.display ="none";
+    Order.style.display ='none';
     
 
 }
@@ -29,6 +31,7 @@ function home(){
     aboutus.style.display ="none";
     contactus.style.display ="none";
     document.querySelector('.crd').style.display ="none";
+    Order.style.display ='none';
 
 
 }
@@ -40,6 +43,8 @@ let aboutus = document.querySelector('.about');
     aboutus.style.display ="block";
     contactus.style.display ="none";
     document.querySelector('.crd').style.display ="none";
+    Order.style.display ='none';
+
 
  }
  let contactus = document.querySelector('.contact');
@@ -50,6 +55,8 @@ let aboutus = document.querySelector('.about');
     aboutus.style.display ="none";
     contactus.style.display ="block";
     document.querySelector('.crd').style.display ="none";
+    Order.style.display ='none';
+
   }
 
   function show(img){
@@ -62,6 +69,7 @@ let aboutus = document.querySelector('.about');
     aboutus.style.display ="none";
     contactus.style.display ="none";
     document.querySelector('.crd').style.display ="flex";
+    Order.style.display ='none';
   }
   function Add(){
     alert("Added To Cart");
@@ -69,4 +77,9 @@ let aboutus = document.querySelector('.about');
   }
   function  Back(){
     location.reload();
+  }
+  let Order = document.querySelector('.order');
+  function buy(){
+    document.querySelector('.crd').style.display ="none";
+    Order.style.display ='block';
   }

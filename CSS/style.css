@@ -384,3 +384,48 @@ nav ul  li a:hover{
    color: black;
    border: 1px solid gray;
 }
+.order{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: none;
+}
+.order h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+form{
+    text-align: center;
+    
+}
+form input{
+    width: 400px;
+    height: 33px;
+    margin-top: 13px;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+}
+form textarea{
+    margin-top: 13px;
+    width: 400px;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+}
+form button{
+    width: 380px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color:rgb(24, 126, 126) ;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    transition: 0.5s all ease-in-out;
+}
+form button:hover{
+    background: transparent;
+    border: 1px solid  gray;
+    color: black;
+}
