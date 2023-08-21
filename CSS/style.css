@@ -45,7 +45,11 @@ nav ul  li a:hover{
     text-decoration: underline;
     color: black;
 }
-
+.sticky{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
 .container {
     display: flex;
     align-items: center;
@@ -339,8 +343,24 @@ nav ul  li a:hover{
     margin-top: 22px;
     margin-bottom: 30px;
     border: none;
+    transition: 0.5s all ease-in-out;
 }
-
+.form button:hover{
+  background: transparent;
+  color: black;
+  border: 1px solid gray;
+}
+#scrollToTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px; /* Adjust this value to change the distance from the right side */
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .crd{
     display: flex;
     justify-content: center;
