@@ -449,3 +449,194 @@ form button:hover{
     border: 1px solid  gray;
     color: black;
 }
+#checkbtn{
+    float: right;
+    line-height: 80px;
+    font-size: 30px;
+    margin-right: 10px;
+    display: none;
+    color: green;
+}
+#check{
+    display: none;
+}
+ #check:checked ~ ul{
+    left: 0;
+} 
+@media (max-width:800px){
+    nav ul {
+        width:100%;
+        height:100vh;
+        background-color: lightblue;
+        position: fixed;
+        top: 80px;
+       left: -100%;
+       transition: .5s;
+       align-items: center; /* Add align-items property */
+       opacity: 1;
+       
+    }
+    
+    nav ul li{
+        display: block;
+        text-align: center;
+        line-height: 45px;
+        
+    }
+    nav ul li  a{
+        color:black;
+        font-size: 25px;
+    }
+    
+    #checkbtn{
+        display: block;
+    }
+    nav ul .btn {
+        /* Remove the margin-left property */
+        font-size: 30px;
+    }
+    
+    
+}
+@media (min-width:600px) and (max-width:800px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav{
+        width: 100%;
+        
+    }
+    
+   .home{
+       width: 100%;
+       
+   }
+   .container {
+    display: flex;
+ flex-direction: column-reverse;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 10px;
+    
+    
+}
+.content {
+    padding-top: 50px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 80px;
+    background: none;
+}
+.background-image {
+    
+   
+   
+   display: none;
+}
+.shop{
+    width: 100%;
+    
+}
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart .cart-image{
+    width: 500px;
+    height: 850px;
+    background-color: gainsboro;
+    
+    /* padding: 22px; */
+    border-radius: 5px;
+    transition: 0.5s all ease-in-out;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+.cart-image img{
+    width:99%;
+    padding: 22px;
+    border-radius: 31px;
+}
+.blog{
+    padding: 50px;
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.blog-crd{
+    display: flex;
+    justify-content: center;
+    
+    width: 500px;
+    height: 300px;
+    background-color: rgb(223, 219, 219);
+    margin-bottom: 100px;
+    border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    margin-left: 0;
+  }
+  .blog a{
+    margin-left: 0px;
+  }
+  .blog-crd img{
+    padding: 20px;
+    width: 60%;
+    border-radius: 41px;
+    
+}
+.letter{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(4, 4, 85);
+    padding: 43px;
+}
+.letter-text{
+    font-size: 25px;
+}
+.inp input{
+    width: 370px;
+    height: 50px;
+    outline: none;
+    font-size: 25px;
+    border: none;
+    margin-right: px;
+    text-align:left;
+    padding: 2px;
+    margin-top: 20px;
+}
+.inp button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(8, 141, 141);
+    color: white;
+    border: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 53px;
+}
+.footer .footer-text{
+    margin-bottom: 20px;
+    
+}
+.footer-text p{
+    margin-top: 11px;
+    font-size: 20px;
+}
+.footer-text h2{
+    font-size: 40px;
+}
+}
