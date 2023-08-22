@@ -597,13 +597,14 @@ form button:hover{
     flex-direction: column;
     color: white;
     background-color: rgb(4, 4, 85);
-    padding: 43px;
+    padding: 40px;
+    align-items: center;
 }
 .letter-text{
     font-size: 25px;
 }
 .inp input{
-    width: 370px;
+    width: 400px;
     height: 50px;
     outline: none;
     font-size: 25px;
@@ -626,6 +627,7 @@ form button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     padding: 53px;
 }
 .footer .footer-text{
@@ -638,5 +640,91 @@ form button:hover{
 }
 .footer-text h2{
     font-size: 40px;
+}
+.crd img{
+    
+    width: 300px;
+    height: 550px;
+    margin-left: 10px;
+}
+.about-us{
+    width: 100%;
+    background-color: rgb(1,1,42);
+    padding: 56px;
+    color:white;
+    font-size: 25px;
+    
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    width:400px;
+    padding: 33px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.me  img{
+    width: 350px;
+}
+.me p{
+    padding-top: 8px;
+}
+.me h1{
+    padding-top: 8px;
+}
+.Contact-us{
+    background-color: rgb(1,1,42);
+    padding: 56px;
+    color:white;
+    font-size: 25px;
+    align-items: center;
+}
+
+.ContactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-top: 5%;
+    margin-left: 8%;
+    background-color: whitesmoke;
+    padding: 22px;
+    font-size: 20px;
+    align-items: center;
+}
+.ContactMe img{
+    width: 450px;
+    padding-right: 10px;
+}
+.form  input{
+    width: 400px;
+    height: 33px;
+    margin-top: 11px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 22px;
+}
+.form button{
+    width: 400px;
+    height: 33px;
+    background-color: rgb(24, 126, 126);
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 33px;
+    border: none;
+    transition: 0.5s all ease-in-out;
+}
+.form button:hover{
+  background: transparent;
+  color: black;
+  border: 1px solid gray;
 }
 }
